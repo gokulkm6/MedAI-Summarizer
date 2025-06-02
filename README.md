@@ -27,10 +27,11 @@ The application is lightweight and can be deployed on devices with moderate hard
 Follow the steps below to run the project locally:
 
 1. Clone the Repository
-   git clone https://github.com/your-username/ai-medical-summarizer.git
-   cd ai-medical-summarizer
+   git clone https://github.com/gokulkm6/MedAI-Summarizer.git
    
-2. Create and Activate Virtual Environment (Optional but Recommended)
+   cd MedAI-Summarizer
+   
+3. Create and Activate Virtual Environment (Optional but Recommended)
    python3 -m venv venv
    source venv/bin/activate
    On Windows: venv\Scripts\activate
