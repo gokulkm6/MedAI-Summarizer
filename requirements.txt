@@ -1,0 +1,6 @@
+flask
+transformers
+torch
+pdfplumber
+pytesseract
+Pillow
