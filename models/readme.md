@@ -1,4 +1,4 @@
-This folder is intended to hold the pre-trained model files required for the summarization and NER components of the pipeline. Due to their size and licensing, they are not included in this repository.
+This folder is intended to hold the pre-trained model files required for the summarization. Due to their size and licensing, they are not included in this repository.
 
 ### 🔽 Download Instructions
 
