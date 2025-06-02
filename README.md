@@ -27,6 +27,7 @@ The application is lightweight and can be deployed on devices with moderate hard
 Follow the steps below to run the project locally:
 
 1. Clone the Repository
+
    git clone https://github.com/gokulkm6/MedAI-Summarizer.git
    
    cd MedAI-Summarizer
