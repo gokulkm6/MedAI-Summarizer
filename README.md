@@ -16,11 +16,14 @@ It addresses the critical gap in healthcare accessibility, especially in rural o
 - Readable Summaries : Converts clinical jargon into simple, digestible language.
 
 ⚙️ Working Requirements
+
 To run this system locally, users should have Python 3.8+, `pip`, and basic dependencies such as `pytesseract`, `transformers`, `torch`, and `opencv-python`. 
 Tesseract OCR must be installed and accessible via system path. The NER and summarization models should be either downloaded from Hugging Face or stored locally for offline inference. 
 The application is lightweight and can be deployed on devices with moderate hardware, such as mid-range laptops with 4GB+ RAM.
 
+
 🚀 How to Run the Project
+
 Follow the steps below to run the project locally:
 
 1. Clone the Repository
@@ -30,22 +33,21 @@ Follow the steps below to run the project locally:
 2. Create and Activate Virtual Environment (Optional but Recommended)
    python3 -m venv venv
    source venv/bin/activate
+   On Windows: venv\Scripts\activate
 
-   # On Windows: venv\Scripts\activate
-
-3. Install Python Dependencies
+4. Install Python Dependencies
    pip install -r requirements.txt
 
-4. Install Tesseract OCR Engine
+5. Install Tesseract OCR Engine
    - Linux: `sudo apt install tesseract-ocr`
    - Windows: [Download installer](https://github.com/tesseract-ocr/tesseract/wiki)
 
-5. Download Required Models
+6. Download Required Models
    - Place BART-large-CNN model in the `models/` directory as described in documentation.
 
-6. Run the Application
+7. Run the Application
    python app.py
 
-7. Upload a Medical Report Image
+8. Upload a Medical Report Image
    - Use the interface to upload a scanned medical report (JPG/PNG).
    - View the extracted summary and identified medical terms.
